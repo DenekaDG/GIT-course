@@ -22,7 +22,7 @@ section {
    min-height: 100vh;
    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
    background-size: 400% 400%;
-   animation: gradient 10s ease infinite;
+   animation: gradient 15s ease infinite;
 }
 
 @keyframes gradient {
@@ -49,7 +49,7 @@ section {
       box-shadow: 0 25px 45px rgba(0, 0, 0, 0.1);
       border: 1px solid rgba(255, 255, 255, 0.15);
       border-radius: 15px;
-      animation: square 10s linear infinite;
+      animation: square 15s linear infinite;
       animation-delay: calc(-1s * var(--i));
    }
 
@@ -57,11 +57,13 @@ section {
 
       0%,
       100% {
-         transform: translateY(-20px);
+         transform: translateY(-40px);
+         
       }
 
       50% {
-         transform: translateY(20px);
+         transform: translateY(40px);
+        
       }
    }
 
